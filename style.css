@@ -67,10 +67,24 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
 }
+/* background colors for text areas */
 #red{
     background-color:hsl(12, 81%, 72%) ;
 }
+#yellow{
+    background-color:hsl(51, 84%, 80%) ;
+}
+#green{
+    background-color:hsl(138, 68%, 83%) ;
+}
+#violet{
+    background-color: hsl(300, 62%, 82%);
+}
+
 
 #Reaction{
     color: hsl(0, 100%, 67%);
@@ -83,6 +97,10 @@ p{
 }
 #Visuals{
     color: hsl(234, 85%, 45%);
+}
+
+.icon{
+    margin-right: 5px;
 }
 
 
