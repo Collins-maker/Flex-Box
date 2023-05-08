@@ -1,0 +1,95 @@
+body{
+
+    box-sizing: border-box;
+    max-width: 1440px;
+    width: fit-content;
+   
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.side-panel{
+    background-color: hsl(252, 100%, 67%);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+
+.side-panel .circle{
+    width: 100px;
+    height: 100px;
+    background-color: hsla(256, 72%, 46%, 1);
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.side-panel span{
+    font-size: large;
+    padding: 20px;
+}
+
+#over{
+    font-size: 60px;
+}
+
+.small-container{
+    width: 50%;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+
+
+}
+.small-container .content .over{
+    color:hsl(224, 30%, 27%) ;
+    font-weight: bold;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Red{
+    background-color: ;
+}
+
+#Reaction{
+    color: hsl(0, 100%, 67%);
+}
+#Memory{
+    color: hsl(39, 100%, 56%);
+}
+#Verbal{
+    color: hsl(166, 100%, 37%);
+}
+#Visuals{
+    color: hsl(234, 85%, 45%);
+}
+
+
+button{
+    background-color:hsl(224, 30%, 27%);
+    color: white;
+    align-self: flex-end;
+    width: 100%;
+    border-style: none;
+    border-radius: 15px;
+    padding: 5px;
+}
